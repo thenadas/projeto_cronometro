@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: #A38DF2;
+    --main-text-color: #111559;
+    --main-button-color: #DFC2F2;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container h1{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+    display: block;
+    color: var(--main-text-color);
+}
+
+.imgCronometro{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.container strong {
+    font-size: 4.3rem;
+    margin-top: -200px;
+    margin-bottom: 200px;
+    color: var(--main-text-color);
+}
+
+.container-btn button {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-button-color);
+    color: var(--main-text-color);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-btn button:hover{
+    background-color: #111559;
+    color: #DFC2F2;
+    transition: all 0.3s;
+}
