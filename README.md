@@ -1,4 +1,6 @@
-# Projeto Cronômetro simples feito com ReactJS.
+# Projeto feito com ReactJS.
+
+- Projeto Cronômetro :stopwatch: (Iniciar, Parar, Limpar); 
 
 Utilizando a função setInterval do JavaScript, e useEffect e useState do react.
 
